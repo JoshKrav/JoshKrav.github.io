@@ -26,7 +26,17 @@ Version: 1.0
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
-
+.mu-icon a {
+	color: inherit; /* Inherit color from parent, or use 'transparent' if you want it fully transparent */
+	text-decoration: none; /* Remove underline */
+  }
+  .mu-icon a {
+	color: white; /* Make the link invisible */
+	text-decoration: none; /* Remove underline */
+  }
+  .mu-icon a:hover {
+	color: #339999; /* Make the link invisible */
+  }
 body,
 html {
 	overflow-x:hidden;
